@@ -20,3 +20,27 @@ The AI-driven Skin Cancer detection system, chatbot functionalities, and informa
 ●	Navigate to the localhost where you can view your web page.
 
 ![image](https://github.com/saadmdsabah/AI-Enabled-car-parking-System/assets/103499208/32207286-2f3d-4a7d-8270-a8b9543da650)
+
+# Skin Cancer Detection ML Model
+
+## Description:
+The Skin Cancer Detection ML Model is a Convolutional Neural Network (CNN) based on Python, designed to identify and classify skin lesions as cancerous or non-cancerous. Trained on extensive datasets comprising various skin lesion images, the model has learned to recognize intricate patterns and features indicative of skin cancers such as melanoma, basal cell carcinoma, and squamous cell carcinoma.
+
+## Process:
+### Input: 
+The model takes an input image of a skin lesion, usually as a digital image file.
+
+### Preprocessing:
+
+The input image undergoes preprocessing steps such as normalization, resizing, and enhancement to standardize it for analysis.
+### Feature Extraction:
+
+Leveraging its CNN architecture, the model extracts essential features from the image, identifying distinct patterns, textures, and structures.
+### Classification:
+
+Using the extracted features, the model performs classification to determine whether the lesion is cancerous or non-cancerous.
+### Output:
+
+The model generates an output indicating the classification result:
+Cancerous: If the lesion exhibits characteristics associated with skin cancers.
+Non-cancerous: If the lesion doesn't show signs of malignancy.
