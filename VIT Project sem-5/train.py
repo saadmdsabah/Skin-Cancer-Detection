@@ -1,0 +1,20 @@
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
+import os
+import time
+time.clock = time.time
+
+
+try:
+	os.remove("db.sqlite3")
+	print("Old database removed. Training new database")
+except:
+	print('No database found. Creating new database.')
+
+english_bot = ChatBot('Bot')
+english_bot.set_trainer(ListTrainer)
+for file in os.listdir('clinic-website-template/data'):
+        print('Training using '+file)
+        convData = open('clinic-website-template/data/' + file).readlines()
+        english_bot.train(convData)
+        print("Training completed for "+file)
