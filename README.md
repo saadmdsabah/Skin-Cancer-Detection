@@ -9,7 +9,7 @@ The AI-driven Skin Cancer detection system, chatbot functionalities, and informa
 ## Run the application
 ●	Run pip install requirements.txt in the terminal
 
-●	Run the Python files(85% acc.ipynb) in the Kaggle notebook(recommended) given in MainWebsite folder to get h5 file and add it to the MainWebsite folder
+●	Run the Python files(85% acc.ipynb) in the Kaggle notebook(recommended) to get h5 file and add it to the MainWebsite folder
 
 ●	Run train.py
 
