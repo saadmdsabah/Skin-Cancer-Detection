@@ -7,6 +7,7 @@ Detecting skin cancer using AI, and ML, specifically CNN in Python, addresses a 
 The AI-driven Skin Cancer detection system, chatbot functionalities, and information provided on this website are intended for informational purposes only. While the system aims to enhance early detection and provide guidance, it should not substitute professional medical advice, diagnosis, or treatment. Users are encouraged to consult qualified healthcare professionals for personalized assessments and recommendations concerning their skin health. The accuracy of the AI-based detection system is subject to the limitations of available data and technology and should be used as a supplementary tool rather than a definitive diagnostic method.
 
 ## Run the application
+### Note: Download Models form Models.txt file 
 ●	Run pip install requirements.txt in the terminal
 
 ●	Run the Python files(85% acc.ipynb) in the Kaggle notebook(recommended) to get h5 file and add it to the MainWebsite folder
